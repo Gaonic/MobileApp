@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="GaonicTheme" parent="@style/Theme.Sherlock.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_gaonic_abs</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Gaonic_abs</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Gaonic_abs</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Gaonic_abs</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Gaonic_abs</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Gaonic_abs</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_gaonic_abs</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_gaonic_abs</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Gaonic_abs</item>
+	    <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+		<item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonGaonicTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonGaonicTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerGaonicTheme</item>
+
+    <item name="android:tabWidgetStyle">@style/TabWidgetGaonicTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarGaonicTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarGaonicTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+
+  </style>
+
+</resources>

@@ -1,0 +1,10 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1380535752000 32008 a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1 /Users/nmvictor/Projects/Gaonic/libs/slf4j-android-1.6.1-RC1.jar
+1380535751000 32008 a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1 /Users/nmvictor/Projects/LIBRARIES/osmbonuspack-read-only/OSMBonusPack/libs/slf4j-android-1.6.1-RC1.jar
+1420449821000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 /Users/nmvictor/Projects/LIBRARIES/JakeWharton-ActionBarSherlock-5a15d92/actionbarsherlock/libs/android-support-v4.jar
+1420449821000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 /Users/nmvictor/Projects/Gaonic/libs/android-support-v4.jar
+1420449821000 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 /Users/nmvictor/Projects/LIBRARIES/JakeWharton-Android-ViewPagerIndicator-8cd549f/library/libs/android-support-v4.jar
+1385299124000 327155 3bda4c0cf42120ae3a5a79a16e151855bed9a360 /Users/nmvictor/Projects/Gaonic/libs/osmdroid-android-4.0.jar
+1385814702000 327155 3bda4c0cf42120ae3a5a79a16e151855bed9a360 /Users/nmvictor/Projects/LIBRARIES/osmbonuspack-read-only/OSMBonusPack/libs/osmdroid-android-4.0.jar

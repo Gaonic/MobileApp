@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gaonic_titles">
+        <item>@string/title_my_things</item>
+        <item>@string/title_nearby_things</item>
+    </array>
+    
+    <array name="gaonic_logos">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_location_place</item>
+    </array>
+    
+    <array name="gaonic_subtitles">
+        <item>@string/subtitle_my_things</item>
+        <item>@string/subtitle_nearby_things</item>
+    </array>
+    
+     <array name="map_overlay_menu_titles">
+        <item>@string/action_attach</item>
+        <item>@string/action_search</item>
+        <item>@string/action_about</item>
+        <item>@string/action_settings</item>
+        <item>@string/action_quit</item>
+    </array>
+    
+    <array name="map_overlay_menu_logos">
+        <item>@drawable/ic_attach</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_about</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_session_quit</item>
+    </array>
+    
+    <array name="map_overlay_menu_subtitles">
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>	
+        <item>@string/empty</item>
+    </array>
+</resources>

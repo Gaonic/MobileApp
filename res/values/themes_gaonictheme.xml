@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="GaonicTheme" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_gaonic_abs</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Gaonic_abs</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Gaonic_abs</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Gaonic_abs</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Gaonic_abs</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Gaonic_abs</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_gaonic_abs</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_gaonic_abs</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Gaonic_abs</item>
+	    <item name="android:editTextStyle">@style/EditTextGaonicTheme</item>
+		 <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    <item name="android:checkboxStyle">@style/CheckBoxGaonicTheme</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonGaonicTheme</item>
+
+    <item name="android:buttonStyle">@style/ButtonGaonicTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonGaonicTheme</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerGaonicTheme</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemGaonicTheme</item>
+
+    <item name="android:tabWidgetStyle">@style/TabWidgetGaonicTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarGaonicTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarGaonicTheme</item>
+
+    <item name="android:listViewStyle">@style/ListViewGaonicTheme</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewGaonicTheme.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemGaonicTheme</item>
+
+  </style>
+
+</resources>

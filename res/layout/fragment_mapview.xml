@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+     <LinearLayout
+        android:id="@+id/loadmap_status"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/loadmap_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/map_progress_loading"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+</LinearLayout>
+
+
+     <include
+         android:id="@+id/overlay_map_menu"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         layout="@layout/map_overlay_menu" />
+
+</FrameLayout>
+
+   <ExpandableListView 
+       android:id="@+id/left_drawer"
+       android:layout_width="300dp"
+       android:layout_height="match_parent"
+       android:layout_gravity="left"
+       android:background="@android:color/white"
+       android:groupIndicator="@null"
+       android:divider="@color/pressed_gaonic_abs"
+       android:dividerHeight="1dip"/>
+</android.support.v4.widget.DrawerLayout>

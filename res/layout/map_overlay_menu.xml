@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- com.actionbarsherlock.internal.widget. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/toggleFullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/transparent_bg"
+        android:src="@drawable/ic_action_fullscreen" />
+
+    <com.actionbarsherlock.internal.widget.IcsSpinner
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/toggleFullscreen"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/transparent_bg" />
+
+    <com.actionbarsherlock.internal.widget.IcsSpinner
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/menu"
+        android:layout_alignBottom="@+id/menu"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/transparent_bg" />
+
+</RelativeLayout>
